@@ -6,7 +6,7 @@ const Technology = (props) => {
   const device = useLoaderData();
   console.log(device);
   return (
-  <div>
+  <div id="tech">
     <Header />
     technology goes here
     {device.name}

@@ -1,0 +1,20 @@
+#dst {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
+  background: url('../assets/destination/background-destination-mobile.jpg') no-repeat center / cover;
+}
+
+/*tablet only*/
+@media screen and (max-width: 1023px) and (min-width: 678px) {
+  #dst {
+    background: url('../assets/destination/background-destination-tablet.jpg') no-repeat center / cover;
+  }
+}
+/* Desktop Only*/
+@media screen and (min-width: 1024px){
+  #dst {
+    background: url('../assets/destination/background-destination-desktop.jpg') no-repeat center / cover;
+  }
+}

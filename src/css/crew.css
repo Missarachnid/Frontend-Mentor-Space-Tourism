@@ -1,0 +1,20 @@
+#crew {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
+  background: url('../assets/crew/background-crew-mobile.jpg') no-repeat center / cover;
+}
+
+/*tablet only*/
+@media screen and (max-width: 1023px) and (min-width: 678px) {
+  #crew {
+    background: url('../assets/crew/background-crew-tablet.jpg') no-repeat center / cover;
+  }
+}
+/* Desktop Only*/
+@media screen and (min-width: 1024px){
+  #crew {
+    background: url('../assets/crew/background-crew-desktop.jpg') no-repeat center / cover;
+  }
+}

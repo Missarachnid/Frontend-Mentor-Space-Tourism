@@ -1,0 +1,20 @@
+#tech {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
+  background: url('../assets/technology/background-technology-mobile.jpg') no-repeat center / cover;
+}
+
+/*tablet only*/
+@media screen and (max-width: 1023px) and (min-width: 678px) {
+  #tech {
+    background: url('../assets/technology/background-technology-tablet.jpg') no-repeat center / cover;
+  }
+}
+/* Desktop Only*/
+@media screen and (min-width: 1024px){
+  #tech {
+    background: url('../assets/technology/background-technology-desktop.jpg') no-repeat center / cover;
+  }
+}

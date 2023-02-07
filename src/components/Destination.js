@@ -5,7 +5,7 @@ import Header from "./Header";
 const Destination = (props) => {
   const place = useLoaderData();
   return (
-  <div>
+  <div id="dst">
     <Header />
     Destination goes here
     {place.name}

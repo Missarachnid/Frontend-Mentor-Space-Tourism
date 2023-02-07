@@ -5,7 +5,7 @@ import Header from "./Header";
 const Crew = (props) => {
   const person = useLoaderData();
   return (
-  <div>
+  <div id="crew">
     <Header />
     crew goes here {person.name}
   </div>
