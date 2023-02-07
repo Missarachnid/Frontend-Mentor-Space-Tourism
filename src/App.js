@@ -1,9 +1,7 @@
-import './css/app.css';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Header from "./components/Header";
 import Technology from "./components/Technology";
 import Destination from "./components/Destination";
 import Crew from "./components/Crew";
@@ -85,7 +83,6 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-      <Header />
       <RouterProvider router={router}/>
      </div>
   );
